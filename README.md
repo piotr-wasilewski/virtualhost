@@ -23,9 +23,9 @@ $ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 
 ```bash
 $ cd /usr/local/bin
-$ wget -O virtualhost https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost.sh
+$ wget -O virtualhost https://raw.githubusercontent.com/piotr-wasilewski/virtualhost/master/virtualhost.sh
 $ chmod +x virtualhost
-$ wget -O virtualhost-nginx https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost-nginx.sh
+$ wget -O virtualhost-nginx https://raw.githubusercontent.com/piotr-wasilewski/virtualhost/master/virtualhost-nginx.sh
 $ chmod +x virtualhost-nginx
 ```
 
@@ -48,23 +48,23 @@ $ sudo virtualhost [create | delete] [domain] [optional host_dir]
 to create a new virtual host:
 
 ```bash
-$ sudo virtualhost create mysite.dev
+$ sudo virtualhost create mysite.test
 ```
 to create a new virtual host with custom directory name:
 
 ```bash
-$ sudo virtualhost create anothersite.dev my_dir
+$ sudo virtualhost create anothersite.test my_dir
 ```
 to delete a virtual host
 
 ```bash
-$ sudo virtualhost delete mysite.dev
+$ sudo virtualhost delete mysite.test
 ```
 
 to delete a virtual host with custom directory name:
 
 ```
-$ sudo virtualhost delete anothersite.dev my_dir
+$ sudo virtualhost delete anothersite.test my_dir
 ```
 ### Localization
 
