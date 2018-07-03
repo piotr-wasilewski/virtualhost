@@ -29,7 +29,7 @@ fi
 
 while [ "$domain" == "" ]
 do
-	echo -e $"Please provide domain. e.g.dev,staging"
+	echo -e $"Please provide domain. e.g.test,staging"
 	read domain
 done
 
